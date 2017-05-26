@@ -1,0 +1,35 @@
+.App{
+	overflow: hidden;
+	padding-top: 3.5rem; 
+}
+.out{
+	height:4rem;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around; 
+}
+.out a{
+	font-size: 1.5rem;
+	color: #000;
+}
+.header{
+	height: 3.5rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: #f7a1a1;
+	display: flex;
+	align-items: center;
+	justify-content: center;  
+}
+.header input{
+	height: 2.5rem;
+	width: 70%;
+	border: none;
+	text-indent: 1.5rem;
+	background: rgba(249,232,232, 0.5);
+}

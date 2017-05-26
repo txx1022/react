@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="Ajax.js" ></script>
+	</head>
+	<body>		
+	</body>
+	<script type="text/javascript">	
+	//	存数据库
+//			ajaxRequest("post","yunnan.json",true,null,function(data){
+//			
+//	            ajaxRequest("post", "list1.php", true, {
+//					"shu":data
+//              }, function (data1) {
+//              	
+//                	console.log(data1);
+//              });
+//	        })
+			
+		//取数据
+         ajaxRequest("post", "user.php", true, null, function (data1) {
+			var a= JSON.parse(data1);
+			console.log(a[0].myImgs.split(","))
+		});
+	
+			
+			
+			
+	</script>
+	
+</html>
